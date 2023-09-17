@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aarushi-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+        <nav>
+        <div class="left"> Aarushi</div>
+        <div class="right">
+            <ul>
+               <li><a href="#header">Home</a></li> 
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hey,I am <span class="purple">Aarushi</span> 
+          <div> and I am a passionate</div>
+          <span id="element"></span>
+
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="">
+        </div>
+      </section>
+      <hr>
+
+    <section id ="Skills">
+      <h2>Skills</h2>
+      <ul class ="skill-list">
+        <li>
+          <img src="c++.png" alt="c++ icon">
+          <p>C++</p>
+        </li>
+        <li>
+          <img src="html.png" alt="html icon">
+          <p>HTML</p>
+        </li>
+        <li>
+          <img src="css.png" alt="css icon">
+          <p>Css</p>
+        </li>
+        <li>
+          <img src="JS.png" alt="JS icon">
+          <p>Javacript</p>
+        </li>
+        <li>
+          <img src="Figma.png" alt="figma icon">
+          <p>Figma</p>
+        </li>
+        <li>
+          <img src="GIT.png" alt="Git icon">
+          <p>Git</p>
+        </li>
+        <li>
+          <img src="sql.png" alt="sql icon">
+          <p>SQL</p>
+        </li>
+        <li>
+          <img src="python.png" alt="pyton icon">
+          <p>python</p>
+        </li>
+        <li>
+          <img src="ml.png" alt="ml icon">
+          <p>Machine Learning</p>
+        </li>
+        <li>
+          <img src="React.png" alt="React icon">
+          <p>React</p>
+        </li>
+      </ul>
+    </section>
+    <!-- projects-->
+<div id="projects">
+  <div class="container">
+    <h1 class="subtitle">Projects</h1>
+    <ul class="projects-list">
+      
+      <li class="project-box">
+        <img src="blind stick.png" alt="stick">
+        <p>Blind vision</p>
+        <p>Innovative object detection model using YOLO v8, benefiting visually impaired individuals.</p>
+        <a href="https://github.com/Aarushipatial/Amazon-clone" target="_blank"class="github-button">GitHub</a>
+        
+      </li>
+      <li class="project-box">
+        <img src="accom.jpeg" alt="pyton icon">
+        <p>Accom</p>
+        <P>Designed an intuitive and visually engaging PG finder web application</P>
+        <a href="https://github.com/Aarushipatial/Amazon-clone" target="_blank"class="github-button">GitHub</a>
+      </li>
+      <li class="project-box">
+        <img src="amazon.png" alt="pyton icon">
+        <p> Amazon clone</p>
+        <P>Developed a responsive and feature-rich front-end for an Amazon Clone web application</P>
+        <a href="https://github.com/Aarushipatial/Amazon-clone" target="_blank"class="github-button">GitHub</a>
+      </li>
+
+    </div>
+  </div>
+</div>
+
+
+<section id="contact">
+  <div class="contact-info">
+    <h2>Contact Me</h2>
+    <p><i class="fa-solid fa-paper-plane"></i>aarushipatial1@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i>781-497-0634</p>
+    <div class="social-icon">
+    <a href="https://www.linkedin.com/in/aarushi-patial-00197421a/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://twitter.com/AarushiPatial"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://github.com/Aarushipatial"><i class="fa-brands fa-github"></i></a>
+  </div>
+  <a href="cv.pdf"download class="github-button btn2">Download Resume</a>
+  </div> 
+  <div class="message-form">
+    <h2>Send a Message</h2>
+    <form name="submit-to-google-sheet">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'UI-UX Designer','AIML Enthusiast'],
+        typeSpeed: 100,
+      });
+      
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwJFU-rgjs1wbaywqOUGp0XbJpoCztyF_wjBZ3vA22eSrFLEC3w9T59X4hTkUyzc-k1/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+    </script>
+  </body>
+</html>
